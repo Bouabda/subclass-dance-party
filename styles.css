@@ -2,10 +2,13 @@ body, html{
   height:100%;
 }
 body{
-
+  background-repeat: no-repeat;
   margin: 0px;
-  background-color: aquamarine;
+  background-image: url('bg3.jpg');
   font-size: 18px;
+  background-position: center;
+  overflow: hidden  ;
+  background-size:cover;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -16,10 +19,11 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: transparent;
+
 }
 .title{
-  background-color: #777;
+  background-color: transparent;
 }
 .dancer{
   border:10px solid red;
