@@ -2,8 +2,9 @@ body, html{
   height:100%;
 }
 body{
+
   margin: 0px;
-  background-color:#444;
+  background-color: aquamarine;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
